@@ -1,0 +1,4 @@
+bot.log
+*.tmp
+__pycache__/
+data/
