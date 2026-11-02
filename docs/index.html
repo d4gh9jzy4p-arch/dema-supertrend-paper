@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Paper Trading Bot</title>
+<style>
+:root{--bg:#fafaf7;--card:#fff;--ink:#1b1d1f;--muted:#6b7075;--line:#e4e4de;--up:#12805c;--down:#c03a2b;--accent:#2f5bd8}
+@media (prefers-color-scheme:dark){:root:not([data-theme=light]){--bg:#111315;--card:#1a1d20;--ink:#ecece8;--muted:#9aa0a6;--line:#2c3034;--up:#3ec597;--down:#ef7a6b;--accent:#8aa7ff}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+main{max-width:900px;margin:0 auto;padding:24px 16px 64px}
+h1{font-size:1.5rem;margin:0 0 4px}h2{font-size:1.05rem;margin:32px 0 8px}
+.muted{color:var(--muted);font-size:.9rem;margin:6px 0}
+.banner{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 14px;margin:14px 0;font-size:.92rem}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;margin:14px 0}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 14px}
+.card span{display:block;color:var(--muted);font-size:.8rem}.card b{font-size:1.4rem}
+.up{color:var(--up)}.down{color:var(--down)}.b{font-weight:700}
+.scroll{overflow-x:auto;background:var(--card);border:1px solid var(--line);border-radius:12px}
+table{border-collapse:collapse;width:100%;font-size:.88rem}th,td{text-align:left;padding:8px 10px;border-bottom:1px solid var(--line);white-space:nowrap}
+th{color:var(--muted);font-weight:600;font-size:.78rem}tr:last-child td{border-bottom:0}
+.curve{width:100%;height:auto;background:var(--card);border:1px solid var(--line);border-radius:12px}
+.curve .line{stroke:var(--accent);stroke-width:2}.curve .base{stroke:var(--muted);stroke-dasharray:5 4;stroke-width:1}
+details{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:10px 14px;margin-top:10px}summary{cursor:pointer;font-weight:600}
+li{margin:4px 0}
+</style></head><body><main>
+<h1>Paper Trading Bot</h1>
+<p class="muted">DEMA 200 + Supertrend (12, 3) + Fibonacci Bollinger Bands, 15 minute candles, 10 big coins, 24 hours a day.</p>
+<div class="banner"><b>Pretend money.</b> Nothing here is a real trade and nothing here is financial advice. The account is shown in percent and starts at 100.
+Results come from real prices, but the bot enters at each candle's closing price, so real life would be a little worse.</div>
+
+<div class="grid">
+<div class="card"><span>Account value (start 100)</span><b class="">100.00</b></div>
+<div class="card"><span>Total result</span><b class="">+0.00%</b></div>
+<div class="card"><span>Today</span><b class="">+0.00%</b></div>
+<div class="card"><span>Status</span><b style="font-size:1rem">Trading</b></div>
+</div>
+<p class="muted">Started Nov 2, 6:22 AM Toronto time. Last check Nov 2, 6:22 AM. Updates about every 15 minutes.</p>
+
+<h2>Account over time</h2>
+<p class='muted'>The line appears after the first closed trade.</p>
+
+<h2>Open trades right now</h2>
+<p class='muted'>No open trades. The bot is waiting for a setup that matches every rule.</p>
+<p class="muted">Size is how much of the account the trade holds. Result so far is in percent of the account and does not include fees yet.</p>
+
+<h2>The numbers</h2>
+<div class="grid">
+<div class="card"><span>Closed trades</span><b>0</b></div>
+<div class="card"><span>Winners</span><b>none yet</b></div>
+<div class="card"><span>Average result per trade</span><b>none yet</b></div>
+<div class="card"><span>Best / worst trade</span><b style="font-size:1rem">none yet / none yet</b></div>
+<div class="card"><span>Daily loss limit hit</span><b>0 times</b></div>
+<div class="card"><span>Valid setups skipped</span><b>0</b></div>
+</div>
+<p class="muted">1R means one full stop-loss worth of money (1.5% of the account). A +3R trade made three times what it risked.</p>
+
+<h2>Long trades against short trades</h2>
+<p class='muted'>No closed trades yet.</p>
+<p class="muted">Regular Canadian crypto accounts can only buy, not short. The long line is what you could have done with a normal account.</p>
+
+<h2>How trades ended</h2>
+<p class='muted'>No closed trades yet.</p>
+
+<h2>Closed trades (newest first)</h2>
+<p class='muted'>No closed trades yet.</p>
+<p class="muted">Result includes the 0.25% fee on the buy and the sell.</p>
+
+<h2>Valid setups the bot could not take</h2>
+<p class='muted'>None so far.</p>
+
+<details><summary>The rules the bot follows</summary>
+<ul>
+<li>Looks at every coin after every 15 minute candle closes, all day and night.</li>
+<li><b>Buy:</b> the Supertrend turns to a buy signal while the price is above the DEMA 200 line. Wait for the candle to close, then enter.</li>
+<li><b>Short:</b> the exact opposite: Supertrend turns to sell while the price is below the DEMA.</li>
+<li><b>Tip 1:</b> if Supertrend already points the right way and the price then crosses the DEMA line, enter then.</li>
+<li><b>Stop loss:</b> at the Supertrend line. The trade is sized so a stop hit loses 1.5% of the account, fees included.</li>
+<li><b>Exit:</b> no profit target. Leave when Supertrend flips, or at once if the price touches the outer Fibonacci Bollinger Band (tip 2).</li>
+<li>At most 6% of the account is at risk across all open trades together. A full-size trade risks 1.5%, so about 4 at once. A setup that would push the total past 6% is skipped.</li>
+<li>No trade may hold more than the whole account (no borrowing).</li>
+<li>Down 6% in one day (Toronto time): everything closes and the bot rests until the next day.</li>
+<li>Coins: BTC, ETH, SOL, XRP, DOGE, ADA, LTC, LINK, AVAX, DOT. A coin is skipped if it traded under 5 million USDT in the last 24 hours.</li>
+<li>Fee assumed: 0.25% on every buy and every sell.</li>
+</ul></details>
+</main></body></html>

@@ -1,0 +1,62 @@
+{
+ "equity": 100.0,
+ "start_equity": 100.0,
+ "symbols": {
+  "BTCUSDT": {
+   "position": null,
+   "last_time": 1793617200000,
+   "last_close": 77960.01
+  },
+  "ETHUSDT": {
+   "position": null,
+   "last_time": 1793617200000,
+   "last_close": 2288.69
+  },
+  "SOLUSDT": {
+   "position": null,
+   "last_time": 1793617200000,
+   "last_close": 93.99
+  },
+  "XRPUSDT": {
+   "position": null,
+   "last_time": 1793617200000,
+   "last_close": 1.2495
+  },
+  "DOGEUSDT": {
+   "position": null,
+   "last_time": 1793617200000,
+   "last_close": 0.07538
+  },
+  "ADAUSDT": {
+   "position": null,
+   "last_time": 1793617200000,
+   "last_close": 0.1909
+  },
+  "LTCUSDT": {
+   "position": null,
+   "last_time": 1793617200000,
+   "last_close": 54.98
+  },
+  "LINKUSDT": {
+   "position": null,
+   "last_time": 1793617200000,
+   "last_close": 11.283
+  },
+  "AVAXUSDT": {
+   "position": null,
+   "last_time": 1793617200000,
+   "last_close": 8.568
+  },
+  "DOTUSDT": {
+   "position": null,
+   "last_time": 1793617200000,
+   "last_close": 0.941
+  }
+ },
+ "day": "2026-11-02",
+ "day_start_equity": 100.0,
+ "halted": false,
+ "halt_count": 0,
+ "last_run": 1793618558804,
+ "started": 1793618558804
+}
