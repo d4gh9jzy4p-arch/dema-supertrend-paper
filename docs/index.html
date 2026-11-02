@@ -27,15 +27,15 @@ li{margin:4px 0}
 Results come from real prices, but the bot enters at each candle's closing price, so real life would be a little worse.</div>
 
 <div class="grid">
-<div class="card"><span>Account value (start 100)</span><b class="">100.00</b></div>
-<div class="card"><span>Total result</span><b class="">+0.00%</b></div>
-<div class="card"><span>Today</span><b class="">+0.00%</b></div>
+<div class="card"><span>Account value (start 100)</span><b class="down">99.17</b></div>
+<div class="card"><span>Total result</span><b class="down">-0.83%</b></div>
+<div class="card"><span>Today</span><b class="down">-0.83%</b></div>
 <div class="card"><span>Status</span><b style="font-size:1rem">Trading</b></div>
 </div>
-<p class="muted">Started Nov 2, 6:22 AM Toronto time. Last check Nov 2, 6:22 AM. Updates about every 15 minutes.</p>
+<p class="muted">Started Nov 2, 6:22 AM Toronto time. Last check Nov 2, 3:51 PM. Updates about every 15 minutes.</p>
 
 <h2>Account over time</h2>
-<p class='muted'>The line appears after the first closed trade.</p>
+<svg viewBox='0 0 720 180' class='curve' role='img' aria-label='Account value after each closed trade'><line x1='8' x2='712' y1='62.8' y2='62.8' class='base'/><polyline points='8.0,62.8 148.8,21.7 289.6,28.0 430.4,28.1 571.2,118.5 712.0,158.3' class='line' fill='none'/></svg><p class='muted'>Account value after each closed trade. The dashed line is where it started (100).</p>
 
 <h2>Open trades right now</h2>
 <p class='muted'>No open trades. The bot is waiting for a setup that matches every rule.</p>
@@ -43,28 +43,28 @@ Results come from real prices, but the bot enters at each candle's closing price
 
 <h2>The numbers</h2>
 <div class="grid">
-<div class="card"><span>Closed trades</span><b>0</b></div>
-<div class="card"><span>Winners</span><b>none yet</b></div>
-<div class="card"><span>Average result per trade</span><b>none yet</b></div>
-<div class="card"><span>Best / worst trade</span><b style="font-size:1rem">none yet / none yet</b></div>
+<div class="card"><span>Closed trades</span><b>5</b></div>
+<div class="card"><span>Winners</span><b>20%</b></div>
+<div class="card"><span>Average result per trade</span><b>-0.20R</b></div>
+<div class="card"><span>Best / worst trade</span><b style="font-size:1rem">+0.36% / -0.79%</b></div>
 <div class="card"><span>Daily loss limit hit</span><b>0 times</b></div>
-<div class="card"><span>Valid setups skipped</span><b>0</b></div>
+<div class="card"><span>Valid setups skipped</span><b>14</b></div>
 </div>
 <p class="muted">1R means one full stop-loss worth of money (1.5% of the account). A +3R trade made three times what it risked.</p>
 
 <h2>Long trades against short trades</h2>
-<p class='muted'>No closed trades yet.</p>
+<div class='scroll'><table><thead><tr><th>Side</th><th>Trades</th><th>Winners</th><th>Total result</th></tr></thead><tbody><tr><td>long</td><td>1</td><td>0%</td><td class=down>-0.79%</td></tr><tr><td>short</td><td>4</td><td>25%</td><td class=down>-0.05%</td></tr></tbody></table></div>
 <p class="muted">Regular Canadian crypto accounts can only buy, not short. The long line is what you could have done with a normal account.</p>
 
 <h2>How trades ended</h2>
-<p class='muted'>No closed trades yet.</p>
+<div class='scroll'><table><thead><tr><th>Exit reason</th><th>Trades</th><th>Winners</th><th>Total result</th></tr></thead><tbody><tr><td>Fibonacci band</td><td>4</td><td>25%</td><td class=down>-0.05%</td></tr><tr><td>stop loss</td><td>1</td><td>0%</td><td class=down>-0.79%</td></tr></tbody></table></div>
 
 <h2>Closed trades (newest first)</h2>
-<p class='muted'>No closed trades yet.</p>
+<div class='scroll'><table><thead><tr><th>Coin</th><th>Side</th><th>Opened</th><th>Closed</th><th>Why it closed</th><th>Result in R</th><th>Result</th></tr></thead><tbody><tr><td class=b>XRP</td><td>short</td><td>2026-11-02 17:30Z</td><td>2026-11-02 17:45Z</td><td>Fibonacci band</td><td class=down>-0.23R</td><td class=down>-0.35%</td></tr><tr><td class=b>XRP</td><td>long</td><td>2026-11-02 16:15Z</td><td>2026-11-02 17:15Z</td><td>stop loss</td><td class=down>-1.0R</td><td class=down>-0.79%</td></tr><tr><td class=b>BTC</td><td>short</td><td>2026-11-02 15:45Z</td><td>2026-11-02 17:15Z</td><td>Fibonacci band</td><td class=down>-0.0R</td><td class=down>-0.00%</td></tr><tr><td class=b>ADA</td><td>short</td><td>2026-11-02 15:45Z</td><td>2026-11-02 16:00Z</td><td>Fibonacci band</td><td class=down>-0.04R</td><td class=down>-0.06%</td></tr><tr><td class=b>ADA</td><td>short</td><td>2026-11-02 12:30Z</td><td>2026-11-02 15:45Z</td><td>Fibonacci band</td><td class=up>0.26R</td><td class=up>+0.36%</td></tr></tbody></table></div>
 <p class="muted">Result includes the 0.25% fee on the buy and the sell.</p>
 
 <h2>Valid setups the bot could not take</h2>
-<p class='muted'>None so far.</p>
+<div class='scroll'><table><thead><tr><th>Reason</th><th>Times</th></tr></thead><tbody><tr><td>no room left in the account</td><td>13</td></tr><tr><td>coin too thinly traded</td><td>1</td></tr></tbody></table></div>
 
 <details><summary>The rules the bot follows</summary>
 <ul>

@@ -1,0 +1,15 @@
+time,symbol,side,reason
+2026-11-02 12:30Z,BTCUSDT,short,no room left in the account
+2026-11-02 12:45Z,DOGEUSDT,short,no room left in the account
+2026-11-02 12:45Z,SOLUSDT,short,no room left in the account
+2026-11-02 13:15Z,XRPUSDT,short,no room left in the account
+2026-11-02 13:30Z,BTCUSDT,long,no room left in the account
+2026-11-02 13:30Z,XRPUSDT,long,no room left in the account
+2026-11-02 13:45Z,DOTUSDT,short,coin too thinly traded
+2026-11-02 14:00Z,DOGEUSDT,short,no room left in the account
+2026-11-02 14:00Z,SOLUSDT,short,no room left in the account
+2026-11-02 15:00Z,BTCUSDT,long,no room left in the account
+2026-11-02 15:45Z,DOGEUSDT,short,no room left in the account
+2026-11-02 15:45Z,ETHUSDT,short,no room left in the account
+2026-11-02 15:45Z,LINKUSDT,short,no room left in the account
+2026-11-02 15:45Z,SOLUSDT,short,no room left in the account
