@@ -18,4 +18,4 @@ Tip 1: if Supertrend already says buy and price then crosses up through the DEMA
 Tip 2: if price touches the outer Fibonacci Bollinger Band, exit at once even if Supertrend still agrees.
 
 Rules added by the owner: risk 1.5% of the account per trade (stop hit, fees included), at most 6% at risk
-across all open trades, stop for the day after a 6% daily loss, top 10 coins, long and short, 24 hours a day.
+across all open trades, stop for the day after a 6% daily loss, top 10 coins, long and short, 24 hours a day. Paper borrowing is allowed (holdings up to 10 times the account) so no valid setup is skipped for lack of cash.
