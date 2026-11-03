@@ -17,7 +17,7 @@ RISK_PER_TRADE = 0.015     # a stop hit loses 1.5% of the account (fees included
 MAX_TOTAL_RISK = 0.06      # all open trades together can risk at most 6%
 DAILY_LOSS_LIMIT = 0.06    # down 6% in a day: close everything, stop until the next day
 FEE = 0.0025               # 0.25% of the trade's value on every buy and every sell
-MAX_NOTIONAL = 1.0         # never hold more than 100% of the account in trades (no borrowing)
+MAX_NOTIONAL = 10.0        # paper borrowing allowed: holdings can reach 10x the account. A real spot account could not.
 MIN_STOP_GAP = 0.001       # skip setups whose stop is closer than 0.1% to the price
 
 FIELDS = ["symbol", "side", "entry_time", "entry_price", "exit_time", "exit_price",
