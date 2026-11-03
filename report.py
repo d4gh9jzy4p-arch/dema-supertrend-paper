@@ -349,7 +349,7 @@ Results come from real prices, but the bot enters at each candle's closing price
 <li>At most 6% of the account is at risk across all open trades together. A full-size trade risks 1.5%, so about 4 at once. A setup that would push the total past 6% is skipped.</li>
 <li>Paper borrowing is allowed (up to 10 times the account) so every valid setup can be taken. A real spot account could not borrow, so real results would be smaller.</li>
 <li>Down 6% in one day (Toronto time): everything closes and the bot rests until the next day.</li>
-<li>Coins: BTC, ETH, SOL, XRP, DOGE, ADA, LTC, LINK, AVAX, DOT. A coin is skipped if it traded under 5 million USDT in the last 24 hours.</li>
+<li>Coins: BTC, ETH, SOL, XRP, DOGE, ADA, LTC, LINK, AVAX, NEAR. A coin is skipped if it traded under 5 million USDT in the last 24 hours.</li>
 <li>Fee assumed: 0.25% on every buy and every sell.</li>
 </ul></details>
 </main><script>{SCRIPT}</script></body></html>"""

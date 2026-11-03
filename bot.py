@@ -15,7 +15,7 @@ from zoneinfo import ZoneInfo
 import strategy, paper
 
 SYMBOLS = ["BTCUSDT", "ETHUSDT", "SOLUSDT", "XRPUSDT", "DOGEUSDT",
-           "ADAUSDT", "LTCUSDT", "LINKUSDT", "AVAXUSDT", "DOTUSDT"]
+           "ADAUSDT", "LTCUSDT", "LINKUSDT", "AVAXUSDT", "NEARUSDT"]
 URL = "https://data-api.binance.vision/api/v3/klines?symbol={}&interval=15m&limit=1000"
 USE_TIP = True              # the video's blue-line cross entry tip
 LONG_ONLY = False           # the owner chose long and short
