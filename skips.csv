@@ -13,3 +13,8 @@ time,symbol,side,reason
 2026-11-02 15:45Z,ETHUSDT,short,no room left in the account
 2026-11-02 15:45Z,LINKUSDT,short,no room left in the account
 2026-11-02 15:45Z,SOLUSDT,short,no room left in the account
+2026-11-02 22:00Z,ADAUSDT,short,no room left in the account
+2026-11-02 22:15Z,DOTUSDT,short,coin too thinly traded
+2026-11-02 23:15Z,DOTUSDT,short,coin too thinly traded
+2026-11-03 01:45Z,DOTUSDT,short,coin too thinly traded
+2026-11-03 02:00Z,ADAUSDT,short,no room left in the account
