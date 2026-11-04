@@ -14,7 +14,7 @@ LOG = os.path.join(HERE, "bot.log")
 # ---- the rules the owner chose ----
 START_EQUITY = 100.0
 RISK_PER_TRADE = 0.02      # a stop hit loses 2% of the account (fees included). Was 1.5% until 4 Nov 2026.
-MAX_TOTAL_RISK = 0.06      # all open trades together can risk at most 6%
+MAX_TOTAL_RISK = 0.10      # all open trades together can risk at most 10%. Was 6% until 4 Nov 2026.
 DAILY_LOSS_LIMIT = 0.06    # down 6% in a day: close everything, stop until the next day
 FEE = 0.0025               # 0.25% of the trade's value on every buy and every sell
 MAX_NOTIONAL = 10.0        # paper borrowing allowed: holdings can reach 10x the account. A real spot account could not.
@@ -97,7 +97,7 @@ class Paper:
         risk_money = eq * RISK_PER_TRADE
         open_risk = sum(p["risk"] for _, p in self.positions())
         if open_risk + risk_money > eq * MAX_TOTAL_RISK + 1e-9:
-            return self.skip(sym, side, t, "total risk cap (6%) reached")
+            return self.skip(sym, side, t, f"total risk cap ({MAX_TOTAL_RISK * 100:g}%) reached")
         qty = risk_money / loss_per_unit
         used = sum(p["qty"] * p["entry_price"] for _, p in self.positions())
         room = eq * MAX_NOTIONAL - used
