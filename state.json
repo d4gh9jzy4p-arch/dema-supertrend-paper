@@ -4,18 +4,18 @@
  "symbols": {
   "BTCUSDT": {
    "position": null,
-   "last_time": 1793772900000,
-   "last_close": 77964.01
+   "last_time": 1793773800000,
+   "last_close": 77908.01
   },
   "ETHUSDT": {
    "position": null,
-   "last_time": 1793772900000,
-   "last_close": 2295.91
+   "last_time": 1793773800000,
+   "last_close": 2293.5
   },
   "SOLUSDT": {
    "position": null,
-   "last_time": 1793772900000,
-   "last_close": 93.09
+   "last_time": 1793773800000,
+   "last_close": 92.85
   },
   "XRPUSDT": {
    "position": {
@@ -26,13 +26,13 @@
     "qty": 47.71509085460631,
     "risk": 1.4705496582818485
    },
-   "last_time": 1793772900000,
-   "last_close": 1.2768
+   "last_time": 1793773800000,
+   "last_close": 1.2751
   },
   "DOGEUSDT": {
    "position": null,
-   "last_time": 1793772900000,
-   "last_close": 0.07481
+   "last_time": 1793773800000,
+   "last_close": 0.0747
   },
   "ADAUSDT": {
    "position": {
@@ -43,23 +43,23 @@
     "qty": 273.4678782552538,
     "risk": 1.4705496582818487
    },
-   "last_time": 1793772900000,
-   "last_close": 0.1906
+   "last_time": 1793773800000,
+   "last_close": 0.1904
   },
   "LTCUSDT": {
    "position": null,
-   "last_time": 1793772900000,
-   "last_close": 54.27
+   "last_time": 1793773800000,
+   "last_close": 54.15
   },
   "LINKUSDT": {
    "position": null,
-   "last_time": 1793772900000,
-   "last_close": 11.035
+   "last_time": 1793773800000,
+   "last_close": 11.028
   },
   "AVAXUSDT": {
    "position": null,
-   "last_time": 1793772900000,
-   "last_close": 8.578
+   "last_time": 1793773800000,
+   "last_close": 8.558
   },
   "DOTUSDT": {
    "position": null,
@@ -75,15 +75,15 @@
     "qty": 8.497845826375205,
     "risk": 1.4418891872976
    },
-   "last_time": 1793772900000,
-   "last_close": 3.95
+   "last_time": 1793773800000,
+   "last_close": 3.938
   }
  },
  "day": "2026-11-04",
  "day_start_equity": 96.15934638343825,
  "halted": false,
  "halt_count": 0,
- "last_run": 1793773833797,
+ "last_run": 1793774726964,
  "started": 1793618558804,
  "skip_count": 45
 }
