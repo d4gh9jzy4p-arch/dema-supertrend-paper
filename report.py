@@ -285,6 +285,8 @@ def build():
 
     charts = load_charts(trades) if n else {}
     shown = min(n, MAX_CHARTS)
+    risk_txt = f"{paper.RISK_PER_TRADE * 100:g}%"
+    about = int(paper.MAX_TOTAL_RISK / paper.RISK_PER_TRADE + 1e-9)
     folder = (f"<details><summary>Trade pictures: 15 minute charts of the latest {shown} trades</summary>"
               f"<div class='cards'>{trade_cards(trades, charts)}</div></details>") if n else ""
 
@@ -322,7 +324,7 @@ Results come from real prices, but the bot enters at each candle's closing price
 <div class="card"><span>Daily loss limit hit</span><b>{st.get("halt_count", 0)} times</b></div>
 <div class="card"><span>Valid setups skipped</span><b>{skip_n}</b></div>
 </div>
-<p class="muted">1R means one full stop-loss worth of money (1.5% of the account). A +3R trade made three times what it risked.</p>
+<p class="muted">1R means one full stop-loss worth of money ({risk_txt} of the account). A +3R trade made three times what it risked.</p>
 
 <h2>Long trades against short trades</h2>
 {group_table("side", "Side")}
@@ -344,13 +346,14 @@ Results come from real prices, but the bot enters at each candle's closing price
 <li><b>Buy:</b> the Supertrend turns to a buy signal while the price is above the DEMA 200 line. Wait for the candle to close, then enter.</li>
 <li><b>Short:</b> the exact opposite: Supertrend turns to sell while the price is below the DEMA.</li>
 <li><b>Tip 1:</b> if Supertrend already points the right way and the price then crosses the DEMA line, enter then.</li>
-<li><b>Stop loss:</b> at the Supertrend line. The trade is sized so a stop hit loses 1.5% of the account, fees included.</li>
+<li><b>Stop loss:</b> at the Supertrend line. The trade is sized so a stop hit loses {risk_txt} of the account, fees included.</li>
 <li><b>Exit:</b> no profit target. Leave when Supertrend flips, or at once if the price touches the outer Fibonacci Bollinger Band (tip 2).</li>
-<li>At most 6% of the account is at risk across all open trades together. A full-size trade risks 1.5%, so about 4 at once. A setup that would push the total past 6% is skipped.</li>
+<li>At most 6% of the account is at risk across all open trades together. A full-size trade risks {risk_txt}, so about {about} at once. A setup that would push the total past 6% is skipped.</li>
 <li>Paper borrowing is allowed (up to 10 times the account) so every valid setup can be taken. A real spot account could not borrow, so real results would be smaller.</li>
 <li>Down 6% in one day (Toronto time): everything closes and the bot rests until the next day.</li>
 <li>Coins: BTC, ETH, SOL, XRP, DOGE, ADA, LTC, LINK, AVAX, NEAR. A coin is skipped if it traded under 5 million USDT in the last 24 hours.</li>
 <li>Fee assumed: 0.25% on every buy and every sell.</li>
+<li>History: risk per trade was 1.5% until Nov 4, 2026 and is 2% since. Trades before that used 1.5%.</li>
 </ul></details>
 </main><script>{SCRIPT}</script></body></html>"""
     os.makedirs(os.path.dirname(OUT), exist_ok=True)

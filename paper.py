@@ -13,7 +13,7 @@ LOG = os.path.join(HERE, "bot.log")
 
 # ---- the rules the owner chose ----
 START_EQUITY = 100.0
-RISK_PER_TRADE = 0.015     # a stop hit loses 1.5% of the account (fees included)
+RISK_PER_TRADE = 0.02      # a stop hit loses 2% of the account (fees included). Was 1.5% until 4 Nov 2026.
 MAX_TOTAL_RISK = 0.06      # all open trades together can risk at most 6%
 DAILY_LOSS_LIMIT = 0.06    # down 6% in a day: close everything, stop until the next day
 FEE = 0.0025               # 0.25% of the trade's value on every buy and every sell
