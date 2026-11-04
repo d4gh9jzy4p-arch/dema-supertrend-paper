@@ -1,51 +1,51 @@
 {
- "equity": 94.96468489870922,
+ "equity": 95.7513831723628,
  "start_equity": 100.0,
  "symbols": {
   "BTCUSDT": {
    "position": null,
-   "last_time": 1793803500000,
-   "last_close": 79347.33
+   "last_time": 1793805300000,
+   "last_close": 80609.85
   },
   "ETHUSDT": {
    "position": null,
-   "last_time": 1793803500000,
-   "last_close": 2379.06
+   "last_time": 1793805300000,
+   "last_close": 2439.99
   },
   "SOLUSDT": {
    "position": null,
-   "last_time": 1793803500000,
-   "last_close": 95.18
+   "last_time": 1793805300000,
+   "last_close": 96.79
   },
   "XRPUSDT": {
    "position": null,
-   "last_time": 1793803500000,
-   "last_close": 1.3166
+   "last_time": 1793805300000,
+   "last_close": 1.3242
   },
   "DOGEUSDT": {
    "position": null,
-   "last_time": 1793803500000,
-   "last_close": 0.07665
+   "last_time": 1793805300000,
+   "last_close": 0.0775
   },
   "ADAUSDT": {
    "position": null,
-   "last_time": 1793803500000,
-   "last_close": 0.1957
+   "last_time": 1793805300000,
+   "last_close": 0.1989
   },
   "LTCUSDT": {
    "position": null,
-   "last_time": 1793803500000,
-   "last_close": 55.93
+   "last_time": 1793805300000,
+   "last_close": 56.51
   },
   "LINKUSDT": {
    "position": null,
-   "last_time": 1793803500000,
-   "last_close": 11.546
+   "last_time": 1793805300000,
+   "last_close": 11.685
   },
   "AVAXUSDT": {
    "position": null,
-   "last_time": 1793803500000,
-   "last_close": 8.869
+   "last_time": 1793805300000,
+   "last_close": 9.007
   },
   "DOTUSDT": {
    "position": null,
@@ -53,23 +53,16 @@
    "last_close": 0.941
   },
   "NEARUSDT": {
-   "position": {
-    "side": "long",
-    "entry_time": 1793802600000,
-    "entry_price": 4.122,
-    "stop": 3.912072408554482,
-    "qty": 8.323511571412968,
-    "risk": 1.9145139732010543
-   },
-   "last_time": 1793803500000,
-   "last_close": 4.151
+   "position": null,
+   "last_time": 1793805300000,
+   "last_close": 4.203
   }
  },
  "day": "2026-11-04",
  "day_start_equity": 96.15934638343825,
  "halted": false,
  "halt_count": 0,
- "last_run": 1793804439673,
+ "last_run": 1793806234241,
  "started": 1793618558804,
  "skip_count": 46
 }
