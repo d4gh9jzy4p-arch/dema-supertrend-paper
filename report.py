@@ -354,7 +354,7 @@ Results come from real prices, but the bot enters at each candle's closing price
 <li>Down 6% in one day (Toronto time): everything closes and the bot rests until the next day.</li>
 <li>Coins: BTC, ETH, SOL, XRP, DOGE, ADA, LTC, LINK, AVAX, NEAR. A coin is skipped if it traded under 5 million USDT in the last 24 hours.</li>
 <li>Fee assumed: 0.25% on every buy and every sell.</li>
-<li>History: risk per trade was 1.5% until Nov 4, 2026 and is 2% since. Trades before that used 1.5%. The open-risk cap was 6% until Nov 4, 2026 and is 10% since.</li>
+<li>History: risk per trade was 1.5% until Nov 4, 2026 and is 2% since. Trades before that used 1.5%. The open-risk cap was 6% until Nov 4, 2026 and is 12% since (it was 10% for a few hours that day).</li>
 </ul></details>
 </main><script>{SCRIPT}</script></body></html>"""
     os.makedirs(os.path.dirname(OUT), exist_ok=True)

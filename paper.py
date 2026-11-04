@@ -14,7 +14,7 @@ LOG = os.path.join(HERE, "bot.log")
 # ---- the rules the owner chose ----
 START_EQUITY = 100.0
 RISK_PER_TRADE = 0.02      # a stop hit loses 2% of the account (fees included). Was 1.5% until 4 Nov 2026.
-MAX_TOTAL_RISK = 0.10      # all open trades together can risk at most 10%. Was 6% until 4 Nov 2026.
+MAX_TOTAL_RISK = 0.12      # all open trades together can risk at most 12%. Was 6% until 4 Nov 2026 (10% for a few hours).
 DAILY_LOSS_LIMIT = 0.06    # down 6% in a day: close everything, stop until the next day
 FEE = 0.0025               # 0.25% of the trade's value on every buy and every sell
 MAX_NOTIONAL = 10.0        # paper borrowing allowed: holdings can reach 10x the account. A real spot account could not.
