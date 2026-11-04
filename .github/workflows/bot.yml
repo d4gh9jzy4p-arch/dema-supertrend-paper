@@ -23,8 +23,14 @@ jobs:
           python-version: "3.11"
       - name: Check candles and trade on paper
         run: python bot.py --once
+      - name: Second account (v2 test). Never blocks the original.
+        continue-on-error: true
+        run: python shadow.py --once
       - name: Rebuild the results page
         run: python report.py
+      - name: Rebuild the v2 results page
+        continue-on-error: true
+        run: python shadow_report.py
       - name: Save the results
         run: |
           git config user.name "paper-bot"
