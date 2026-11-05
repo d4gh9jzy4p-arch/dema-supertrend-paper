@@ -1,0 +1,2 @@
+symbol,side,entry_time,entry_price,exit_time,exit_price,size_pct_of_account,stop,reason,pnl_pct,r_multiple,equity_after
+AVAXUSDT,long,2026-11-05 02:30Z,8.832,2026-11-05 12:15Z,8.682,75.0,8.6401626,Supertrend flip,-1.6456,-0.82,98.3544
