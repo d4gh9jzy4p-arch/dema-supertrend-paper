@@ -348,13 +348,13 @@ Results come from real prices, but the bot enters at each candle's closing price
 <li><b>Short:</b> the exact opposite: Supertrend turns to sell while the price is below the DEMA.</li>
 <li><b>Tip 1:</b> if Supertrend already points the right way and the price then crosses the DEMA line, enter then.</li>
 <li><b>Stop loss:</b> at the Supertrend line. The trade is sized so a stop hit loses {risk_txt} of the account, fees included.</li>
-<li><b>Exit:</b> no profit target. Leave when Supertrend flips, or at once if the price touches the outer Fibonacci Bollinger Band (tip 2).</li>
+<li><b>Exit:</b> no profit target. Leave when Supertrend flips. Tip 2 (exit at the outer Fibonacci Bollinger Band) was used until Nov 5, 2026 and is now OFF: it closed trades right after they opened.</li>
 <li>At most {cap_txt} of the account is at risk across all open trades together. A full-size trade risks {risk_txt}, so about {about} at once. A setup that would push the total past {cap_txt} is skipped.</li>
 <li>Paper borrowing is allowed (up to 10 times the account) so every valid setup can be taken. A real spot account could not borrow, so real results would be smaller.</li>
 <li>Down 6% in one day (Toronto time): everything closes and the bot rests until the next day.</li>
 <li>Coins: BTC, ETH, SOL, XRP, DOGE, ADA, LTC, LINK, AVAX, NEAR. A coin is skipped if it traded under 5 million USDT in the last 24 hours.</li>
 <li>Fee assumed: 0.25% on every buy and every sell.</li>
-<li>History: risk per trade was 1.5% until Nov 4, 2026 and is 2% since. Trades before that used 1.5%. The open-risk cap was 6% until Nov 4, 2026 and is 12% since (it was 10% for a few hours that day).</li>
+<li>History: risk per trade was 1.5% until Nov 4, 2026 and is 2% since. Trades before that used 1.5%. The open-risk cap was 6% until Nov 4, 2026 and is 12% since (it was 10% for a few hours that day). Tip 2 (band exit) has been off since Nov 5, 2026; earlier trades that closed at the band are still listed.</li>
 </ul></details>
 </main><script>{SCRIPT}</script></body></html>"""
     os.makedirs(os.path.dirname(OUT), exist_ok=True)

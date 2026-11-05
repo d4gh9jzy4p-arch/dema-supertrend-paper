@@ -46,7 +46,8 @@ def main():
                         'with a stop closer than 2% to the price are ignored.<br><br><b>Pretend money.</b>', 1)
     page = page.replace("<li><b>Tip 1:</b> if Supertrend already points the right way and the price then crosses the DEMA line, enter then.</li>",
                         "<li><b>Tip 1: OFF</b> in this account.</li>")
-    page = page.replace(" or at once if the price touches the outer Fibonacci Bollinger Band (tip 2).", ". Tip 2 (the band exit) is OFF in this account.")
+    page = page.replace("Tip 2 (exit at the outer Fibonacci Bollinger Band) was used until Nov 5, 2026 and is now OFF: it closed trades right after they opened.", "Tip 2 (the band exit) is OFF in this account.")
+    page = page.replace(" Tip 2 (band exit) has been off since Nov 5, 2026; earlier trades that closed at the band are still listed.", "")
     page = page.replace("<li>Fee assumed:", "<li>A setup is ignored if the stop is closer than 2% to the price (fees eat small stops).</li><li>Fee assumed:", 1)
     page = page.replace("<h2>Account over time</h2>", side_by_side(st.get("started")) + "<h2>Account over time</h2>", 1)
     open(OUT2, "w").write(page)

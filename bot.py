@@ -18,6 +18,7 @@ SYMBOLS = ["BTCUSDT", "ETHUSDT", "SOLUSDT", "XRPUSDT", "DOGEUSDT",
            "ADAUSDT", "LTCUSDT", "LINKUSDT", "AVAXUSDT", "NEARUSDT"]
 URL = "https://data-api.binance.vision/api/v3/klines?symbol={}&interval=15m&limit=1000"
 USE_TIP = True              # the video's blue-line cross entry tip
+USE_BAND_EXIT = False       # the video's Fibonacci band exit tip. Off since 5 Nov 2026: it closed trades right after entry, even below the entry price
 LONG_ONLY = False           # the owner chose long and short
 MIN_DAY_VOLUME = 5_000_000  # skip a coin whose last 24h traded under this many USDT (thin coins fill badly)
 TZ = ZoneInfo("America/Toronto")
@@ -62,9 +63,9 @@ def handle_candle(broker, sym, candles, sigs, i):
         if (long_ and l <= pos["stop"]) or (not long_ and h >= pos["stop"]):
             gap = min(o, pos["stop"]) if long_ else max(o, pos["stop"])
             broker.close(sym, t, gap, "stop loss")
-        elif s["bu"] is not None and long_ and h >= s["bu"]:
+        elif USE_BAND_EXIT and s["bu"] is not None and long_ and h >= s["bu"]:
             broker.close(sym, t, s["bu"], "Fibonacci band")
-        elif s["bl"] is not None and not long_ and l <= s["bl"]:
+        elif USE_BAND_EXIT and s["bl"] is not None and not long_ and l <= s["bl"]:
             broker.close(sym, t, s["bl"], "Fibonacci band")
         elif (long_ and s["trend"] == -1) or (not long_ and s["trend"] == 1):
             broker.close(sym, t, c, "Supertrend flip")
