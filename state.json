@@ -1,11 +1,22 @@
 {
  "equity": 100.0,
  "start_equity": 100.0,
- "symbols": {},
- "day": null,
- "day_start_equity": null,
+ "symbols": {
+  "BTCUSDT": {
+   "position": null,
+   "last_time": 1793946600000,
+   "last_close": 75728.0
+  },
+  "DOGEUSDT": {
+   "position": null,
+   "last_time": 1793946600000,
+   "last_close": 0.07174
+  }
+ },
+ "day": "2026-11-06",
+ "day_start_equity": 100.0,
  "halted": false,
  "halt_count": 0,
- "last_run": null,
- "started": null
+ "last_run": 1793947523825,
+ "started": 1793947523825
 }
