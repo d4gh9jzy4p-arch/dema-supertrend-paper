@@ -26,11 +26,17 @@ jobs:
       - name: Second account (v2 test). Never blocks the original.
         continue-on-error: true
         run: python shadow.py --once
+      - name: Third account (2 hour test). Never blocks the original.
+        continue-on-error: true
+        run: python shadow2h.py --once
       - name: Rebuild the results page
         run: python report.py
       - name: Rebuild the v2 results page
         continue-on-error: true
         run: python shadow_report.py
+      - name: Rebuild the 2 hour results page
+        continue-on-error: true
+        run: python shadow2h_report.py
       - name: Save the results
         run: |
           git config user.name "paper-bot"
