@@ -26,6 +26,7 @@ paper.MIN_STOP_GAP = STOP_GAP
 paper.RISK_PER_TRADE = 0.01
 paper.MAX_TOTAL_RISK = 0.06
 bot.USE_TIP = False
+bot.SYMBOLS = bot.ALL_SYMBOLS
 bot.USE_BAND_EXIT = False
 bot.URL = bot.URL.replace("interval=15m", "interval=2h")
 

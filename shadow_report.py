@@ -50,6 +50,8 @@ def main():
     page = page.replace(" Tip 2 (band exit) has been off since Nov 5, 2026; earlier trades that closed at the band are still listed.", "")
     page = page.replace("<li>Fee assumed:", "<li>A setup is ignored if the stop is closer than 2% to the price (fees eat small stops).</li><li>Fee assumed:", 1)
     page = page.replace("<h2>Account over time</h2>", side_by_side(st.get("started")) + "<h2>Account over time</h2>", 1)
+    page = page.replace("BTC and DOGE, 24 hours a day.", "10 big coins, 24 hours a day.")
+    page = page.replace("<li>Coins: BTC and DOGE.", "<li>Coins: BTC, ETH, SOL, XRP, DOGE, ADA, LTC, LINK, AVAX, NEAR.")
     open(OUT2, "w").write(page)
 
     main_page = open(MAIN).read()

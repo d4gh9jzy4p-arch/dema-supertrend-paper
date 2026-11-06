@@ -14,8 +14,9 @@ from datetime import datetime, timezone
 from zoneinfo import ZoneInfo
 import strategy, paper
 
-SYMBOLS = ["BTCUSDT", "ETHUSDT", "SOLUSDT", "XRPUSDT", "DOGEUSDT",
-           "ADAUSDT", "LTCUSDT", "LINKUSDT", "AVAXUSDT", "NEARUSDT"]
+ALL_SYMBOLS = ["BTCUSDT", "ETHUSDT", "SOLUSDT", "XRPUSDT", "DOGEUSDT",
+               "ADAUSDT", "LTCUSDT", "LINKUSDT", "AVAXUSDT", "NEARUSDT"]
+SYMBOLS = ["BTCUSDT", "DOGEUSDT"]   # the original account trades only BTC and DOGE since 6 Nov 2026 (fresh start). The test accounts use ALL_SYMBOLS.
 URL = "https://data-api.binance.vision/api/v3/klines?symbol={}&interval=15m&limit=1000"
 USE_TIP = True              # the video's blue-line cross entry tip
 USE_BAND_EXIT = False       # the video's Fibonacci band exit tip. Off since 5 Nov 2026: it closed trades right after entry, even below the entry price

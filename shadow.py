@@ -20,6 +20,7 @@ paper.TRADES = os.path.join(paper.HERE, "trades_v2.csv")
 paper.SKIPS = os.path.join(paper.HERE, "skips_v2.csv")
 paper.MIN_STOP_GAP = STOP_GAP
 bot.USE_TIP = False
+bot.SYMBOLS = bot.ALL_SYMBOLS
 
 _signals = strategy.signals
 
