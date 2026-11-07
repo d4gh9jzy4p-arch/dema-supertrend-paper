@@ -11,8 +11,8 @@
     "qty": 0.0033883784186968043,
     "risk": 1.938058422283128
    },
-   "last_time": 1794044700000,
-   "last_close": 76053.5
+   "last_time": 1794045600000,
+   "last_close": 76040.34
   },
   "DOGEUSDT": {
    "position": {
@@ -23,14 +23,14 @@
     "qty": 2001.240150913872,
     "risk": 1.9699073155480264
    },
-   "last_time": 1794044700000,
-   "last_close": 0.07187
+   "last_time": 1794045600000,
+   "last_close": 0.0719
   }
  },
  "day": "2026-11-07",
  "day_start_equity": 98.64554941623275,
  "halted": false,
  "halt_count": 0,
- "last_run": 1794045632796,
+ "last_run": 1794046520942,
  "started": 1793947523825
 }
