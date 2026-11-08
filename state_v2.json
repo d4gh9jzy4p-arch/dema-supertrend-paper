@@ -1,69 +1,62 @@
 {
- "equity": 98.35439194773573,
+ "equity": 96.38730410878102,
  "start_equity": 100.0,
  "symbols": {
   "BTCUSDT": {
    "position": null,
-   "last_time": 1794172500000,
-   "last_close": 75713.37
+   "last_time": 1794173400000,
+   "last_close": 75606.95
   },
   "ETHUSDT": {
    "position": null,
-   "last_time": 1794172500000,
-   "last_close": 2224.8
+   "last_time": 1794173400000,
+   "last_close": 2222.34
   },
   "SOLUSDT": {
    "position": null,
-   "last_time": 1794172500000,
-   "last_close": 89.04
+   "last_time": 1794173400000,
+   "last_close": 88.86
   },
   "XRPUSDT": {
    "position": null,
-   "last_time": 1794172500000,
-   "last_close": 1.1469
+   "last_time": 1794173400000,
+   "last_close": 1.1443
   },
   "DOGEUSDT": {
    "position": null,
-   "last_time": 1794172500000,
-   "last_close": 0.07095
+   "last_time": 1794173400000,
+   "last_close": 0.0708
   },
   "ADAUSDT": {
    "position": null,
-   "last_time": 1794172500000,
-   "last_close": 0.1797
+   "last_time": 1794173400000,
+   "last_close": 0.1793
   },
   "LTCUSDT": {
    "position": null,
-   "last_time": 1794172500000,
-   "last_close": 51.44
+   "last_time": 1794173400000,
+   "last_close": 51.37
   },
   "LINKUSDT": {
    "position": null,
-   "last_time": 1794172500000,
-   "last_close": 10.625
+   "last_time": 1794173400000,
+   "last_close": 10.602
   },
   "AVAXUSDT": {
    "position": null,
-   "last_time": 1794172500000,
-   "last_close": 8.162
+   "last_time": 1794173400000,
+   "last_close": 8.138
   },
   "NEARUSDT": {
-   "position": {
-    "side": "long",
-    "entry_time": 1794163500000,
-    "entry_price": 3.666,
-    "stop": 3.588854219365284,
-    "qty": 20.64470649884467,
-    "risk": 1.9670878389547148
-   },
-   "last_time": 1794172500000,
-   "last_close": 3.6
+   "position": null,
+   "last_time": 1794173400000,
+   "last_close": 3.587
   }
  },
  "day": "2026-11-08",
  "day_start_equity": 98.35439194773573,
  "halted": false,
  "halt_count": 0,
- "last_run": 1794173440196,
+ "last_run": 1794174329152,
  "started": 1793832342607
 }
