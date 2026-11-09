@@ -4,33 +4,33 @@
  "symbols": {
   "BTCUSDT": {
    "position": null,
-   "last_time": 1794217500000,
-   "last_close": 74288.01
+   "last_time": 1794218400000,
+   "last_close": 74176.01
   },
   "ETHUSDT": {
    "position": null,
-   "last_time": 1794217500000,
-   "last_close": 2108.92
+   "last_time": 1794218400000,
+   "last_close": 2101.58
   },
   "SOLUSDT": {
    "position": null,
-   "last_time": 1794217500000,
-   "last_close": 86.44
+   "last_time": 1794218400000,
+   "last_close": 86.08
   },
   "XRPUSDT": {
    "position": null,
-   "last_time": 1794217500000,
-   "last_close": 1.0896
+   "last_time": 1794218400000,
+   "last_close": 1.0907
   },
   "DOGEUSDT": {
    "position": null,
-   "last_time": 1794217500000,
-   "last_close": 0.06912
+   "last_time": 1794218400000,
+   "last_close": 0.06891
   },
   "ADAUSDT": {
    "position": null,
-   "last_time": 1794217500000,
-   "last_close": 0.1755
+   "last_time": 1794218400000,
+   "last_close": 0.1756
   },
   "LTCUSDT": {
    "position": {
@@ -41,13 +41,13 @@
     "qty": 1.2889905823830627,
     "risk": 1.7755966583499794
    },
-   "last_time": 1794217500000,
-   "last_close": 51.02
+   "last_time": 1794218400000,
+   "last_close": 50.87
   },
   "LINKUSDT": {
    "position": null,
-   "last_time": 1794217500000,
-   "last_close": 10.423
+   "last_time": 1794218400000,
+   "last_close": 10.426
   },
   "AVAXUSDT": {
    "position": {
@@ -58,8 +58,8 @@
     "qty": 8.325062129751377,
     "risk": 1.8270772045850359
    },
-   "last_time": 1794217500000,
-   "last_close": 8.008
+   "last_time": 1794218400000,
+   "last_close": 7.992
   },
   "NEARUSDT": {
    "position": {
@@ -70,14 +70,14 @@
     "qty": 15.099870249257677,
     "risk": 1.827077204585036
    },
-   "last_time": 1794217500000,
-   "last_close": 3.521
+   "last_time": 1794218400000,
+   "last_close": 3.508
   }
  },
  "day": "2026-11-09",
  "day_start_equity": 91.35386022925181,
  "halted": false,
  "halt_count": 1,
- "last_run": 1794218445360,
+ "last_run": 1794219331854,
  "started": 1793832342607
 }
