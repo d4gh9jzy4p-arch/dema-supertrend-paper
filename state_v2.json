@@ -1,21 +1,21 @@
 {
- "equity": 86.55767206775117,
+ "equity": 85.38098293909205,
  "start_equity": 100.0,
  "symbols": {
   "BTCUSDT": {
    "position": null,
-   "last_time": 1794431700000,
-   "last_close": 74710.01
+   "last_time": 1794432600000,
+   "last_close": 74478.91
   },
   "ETHUSDT": {
    "position": null,
-   "last_time": 1794431700000,
-   "last_close": 2080.66
+   "last_time": 1794432600000,
+   "last_close": 2075.09
   },
   "SOLUSDT": {
    "position": null,
-   "last_time": 1794431700000,
-   "last_close": 84.98
+   "last_time": 1794432600000,
+   "last_close": 84.71
   },
   "XRPUSDT": {
    "position": {
@@ -26,23 +26,23 @@
     "qty": 51.99008475841004,
     "risk": 1.8056760177726838
    },
-   "last_time": 1794431700000,
-   "last_close": 1.0656
+   "last_time": 1794432600000,
+   "last_close": 1.0629
   },
   "DOGEUSDT": {
    "position": null,
-   "last_time": 1794431700000,
-   "last_close": 0.06864
+   "last_time": 1794432600000,
+   "last_close": 0.06843
   },
   "ADAUSDT": {
    "position": null,
-   "last_time": 1794431700000,
-   "last_close": 0.1777
+   "last_time": 1794432600000,
+   "last_close": 0.1771
   },
   "LTCUSDT": {
    "position": null,
-   "last_time": 1794431700000,
-   "last_close": 50.92
+   "last_time": 1794432600000,
+   "last_close": 50.76
   },
   "LINKUSDT": {
    "position": {
@@ -53,8 +53,8 @@
     "qty": 6.4204839057133665,
     "risk": 1.7311534413550234
    },
-   "last_time": 1794431700000,
-   "last_close": 10.461
+   "last_time": 1794432600000,
+   "last_close": 10.389
   },
   "AVAXUSDT": {
    "position": {
@@ -65,26 +65,26 @@
     "qty": 7.517656300513742,
     "risk": 1.7311534413550234
    },
-   "last_time": 1794431700000,
-   "last_close": 8.635
+   "last_time": 1794432600000,
+   "last_close": 8.623
   },
   "NEARUSDT": {
    "position": {
-    "side": "long",
-    "entry_time": 1794397500000,
-    "entry_price": 3.787,
-    "stop": 3.611808925017292,
-    "qty": 8.93784112462066,
-    "risk": 1.7311534413550234
+    "side": "short",
+    "entry_time": 1794432600000,
+    "entry_price": 3.674,
+    "stop": 3.7826159069753227,
+    "qty": 13.418622662087769,
+    "risk": 1.707619658781841
    },
-   "last_time": 1794431700000,
-   "last_close": 3.695
+   "last_time": 1794432600000,
+   "last_close": 3.674
   }
  },
  "day": "2026-11-11",
  "day_start_equity": 88.72847883977221,
  "halted": false,
  "halt_count": 1,
- "last_run": 1794432635570,
+ "last_run": 1794433535126,
  "started": 1793832342607
 }

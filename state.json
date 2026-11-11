@@ -4,20 +4,20 @@
  "symbols": {
   "BTCUSDT": {
    "position": null,
-   "last_time": 1794431700000,
-   "last_close": 74710.01
+   "last_time": 1794432600000,
+   "last_close": 74478.91
   },
   "DOGEUSDT": {
    "position": null,
-   "last_time": 1794431700000,
-   "last_close": 0.06864
+   "last_time": 1794432600000,
+   "last_close": 0.06843
   }
  },
  "day": "2026-11-11",
  "day_start_equity": 84.5345411635471,
  "halted": true,
  "halt_count": 1,
- "last_run": 1794432627938,
+ "last_run": 1794433523489,
  "started": 1793947523825,
  "skip_count": 1
 }
