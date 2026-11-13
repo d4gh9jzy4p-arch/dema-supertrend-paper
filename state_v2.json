@@ -4,60 +4,60 @@
  "symbols": {
   "BTCUSDT": {
    "position": null,
-   "last_time": 1794606300000,
-   "last_close": 68398.0
+   "last_time": 1794607200000,
+   "last_close": 68137.21
   },
   "ETHUSDT": {
    "position": null,
-   "last_time": 1794606300000,
-   "last_close": 1928.74
+   "last_time": 1794607200000,
+   "last_close": 1920.31
   },
   "SOLUSDT": {
    "position": null,
-   "last_time": 1794606300000,
-   "last_close": 78.63
+   "last_time": 1794607200000,
+   "last_close": 78.08
   },
   "XRPUSDT": {
    "position": null,
-   "last_time": 1794606300000,
-   "last_close": 1.0146
+   "last_time": 1794607200000,
+   "last_close": 1.0063
   },
   "DOGEUSDT": {
    "position": null,
-   "last_time": 1794606300000,
-   "last_close": 0.06463
+   "last_time": 1794607200000,
+   "last_close": 0.06412
   },
   "ADAUSDT": {
    "position": null,
-   "last_time": 1794606300000,
-   "last_close": 0.1685
+   "last_time": 1794607200000,
+   "last_close": 0.167
   },
   "LTCUSDT": {
    "position": null,
-   "last_time": 1794606300000,
-   "last_close": 49.41
+   "last_time": 1794607200000,
+   "last_close": 48.99
   },
   "LINKUSDT": {
    "position": null,
-   "last_time": 1794606300000,
-   "last_close": 9.874
+   "last_time": 1794607200000,
+   "last_close": 9.791
   },
   "AVAXUSDT": {
    "position": null,
-   "last_time": 1794606300000,
-   "last_close": 8.304
+   "last_time": 1794607200000,
+   "last_close": 8.219
   },
   "NEARUSDT": {
    "position": null,
-   "last_time": 1794606300000,
-   "last_close": 3.489
+   "last_time": 1794607200000,
+   "last_close": 3.432
   }
  },
  "day": "2026-11-13",
  "day_start_equity": 84.5086416880682,
  "halted": true,
  "halt_count": 3,
- "last_run": 1794607240811,
+ "last_run": 1794608128942,
  "started": 1793832342607,
- "skip_count": 5
+ "skip_count": 6
 }
