@@ -4,28 +4,28 @@
  "symbols": {
   "BTCUSDT": {
    "position": null,
-   "last_time": 1794758400000,
-   "last_close": 64556.99
+   "last_time": 1794765600000,
+   "last_close": 64947.43
   },
   "ETHUSDT": {
    "position": null,
-   "last_time": 1794758400000,
-   "last_close": 1814.27
+   "last_time": 1794765600000,
+   "last_close": 1824.37
   },
   "SOLUSDT": {
    "position": null,
-   "last_time": 1794758400000,
-   "last_close": 71.45
+   "last_time": 1794765600000,
+   "last_close": 71.7
   },
   "XRPUSDT": {
    "position": null,
-   "last_time": 1794758400000,
-   "last_close": 0.9501
+   "last_time": 1794765600000,
+   "last_close": 0.9613
   },
   "DOGEUSDT": {
    "position": null,
-   "last_time": 1794758400000,
-   "last_close": 0.05871
+   "last_time": 1794765600000,
+   "last_close": 0.05904
   },
   "ADAUSDT": {
    "position": {
@@ -36,18 +36,18 @@
     "qty": 107.70143604885641,
     "risk": 0.9748231570267999
    },
-   "last_time": 1794758400000,
-   "last_close": 0.1531
+   "last_time": 1794765600000,
+   "last_close": 0.1548
   },
   "LTCUSDT": {
    "position": null,
-   "last_time": 1794758400000,
-   "last_close": 44.83
+   "last_time": 1794765600000,
+   "last_close": 45.38
   },
   "LINKUSDT": {
    "position": null,
-   "last_time": 1794758400000,
-   "last_close": 9.221
+   "last_time": 1794765600000,
+   "last_close": 9.238
   },
   "AVAXUSDT": {
    "position": {
@@ -58,8 +58,8 @@
     "qty": 1.6484872439135296,
     "risk": 0.9603077947976526
    },
-   "last_time": 1794758400000,
-   "last_close": 7.201
+   "last_time": 1794765600000,
+   "last_close": 7.244
   },
   "NEARUSDT": {
    "position": {
@@ -70,14 +70,14 @@
     "qty": 3.075810241751798,
     "risk": 0.9506072345339734
    },
-   "last_time": 1794758400000,
-   "last_close": 3.133
+   "last_time": 1794765600000,
+   "last_close": 3.172
   }
  },
  "day": "2026-11-15",
  "day_start_equity": 98.86521273564715,
  "halted": false,
  "halt_count": 0,
- "last_run": 1794771939672,
+ "last_run": 1794772846755,
  "started": 1793939456925
 }
