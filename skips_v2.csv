@@ -5,3 +5,8 @@ time,symbol,side,reason
 2026-11-13 15:00Z,SOLUSDT,short,total risk cap (12%) reached
 2026-11-13 15:15Z,DOGEUSDT,short,total risk cap (12%) reached
 2026-11-13 22:00Z,LTCUSDT,short,daily loss limit already hit today
+2026-11-16 14:30Z,LINKUSDT,long,total risk cap (12%) reached
+2026-11-16 14:30Z,LTCUSDT,long,total risk cap (12%) reached
+2026-11-16 14:30Z,NEARUSDT,long,total risk cap (12%) reached
+2026-11-16 14:30Z,SOLUSDT,long,total risk cap (12%) reached
+2026-11-16 14:30Z,XRPUSDT,long,total risk cap (12%) reached
