@@ -1,31 +1,38 @@
 {
- "equity": 93.0992864506858,
+ "equity": 95.24117416913886,
  "start_equity": 100.0,
  "symbols": {
   "BTCUSDT": {
    "position": null,
-   "last_time": 1795255200000,
-   "last_close": 58206.1
+   "last_time": 1795262400000,
+   "last_close": 60558.41
   },
   "ETHUSDT": {
    "position": null,
-   "last_time": 1795255200000,
-   "last_close": 1652.66
+   "last_time": 1795262400000,
+   "last_close": 1701.77
   },
   "SOLUSDT": {
-   "position": null,
-   "last_time": 1795255200000,
-   "last_close": 68.86
+   "position": {
+    "side": "long",
+    "entry_time": 1795262400000,
+    "entry_price": 70.75,
+    "stop": 64.62315441989716,
+    "qty": 0.14731178968972683,
+    "risk": 0.9524117416913886
+   },
+   "last_time": 1795262400000,
+   "last_close": 70.75
   },
   "XRPUSDT": {
    "position": null,
-   "last_time": 1795255200000,
-   "last_close": 0.9036
+   "last_time": 1795262400000,
+   "last_close": 0.9314
   },
   "DOGEUSDT": {
    "position": null,
-   "last_time": 1795255200000,
-   "last_close": 0.05377
+   "last_time": 1795262400000,
+   "last_close": 0.05531
   },
   "ADAUSDT": {
    "position": {
@@ -36,41 +43,34 @@
     "qty": 107.70143604885641,
     "risk": 0.9748231570267999
    },
-   "last_time": 1795255200000,
-   "last_close": 0.1404
+   "last_time": 1795262400000,
+   "last_close": 0.1439
   },
   "LTCUSDT": {
    "position": null,
-   "last_time": 1795255200000,
-   "last_close": 39.06
+   "last_time": 1795262400000,
+   "last_close": 40.16
   },
   "LINKUSDT": {
    "position": null,
-   "last_time": 1795255200000,
-   "last_close": 8.456
+   "last_time": 1795262400000,
+   "last_close": 8.677
   },
   "AVAXUSDT": {
-   "position": {
-    "side": "short",
-    "entry_time": 1794636000000,
-    "entry_price": 8.007,
-    "stop": 8.548150931112053,
-    "qty": 1.6484872439135296,
-    "risk": 0.9603077947976526
-   },
-   "last_time": 1795255200000,
-   "last_close": 6.438
+   "position": null,
+   "last_time": 1795262400000,
+   "last_close": 6.671
   },
   "NEARUSDT": {
    "position": null,
-   "last_time": 1795255200000,
-   "last_close": 2.793
+   "last_time": 1795262400000,
+   "last_close": 2.919
   }
  },
  "day": "2026-11-21",
  "day_start_equity": 99.76808596228408,
  "halted": false,
  "halt_count": 0,
- "last_run": 1795268741432,
+ "last_run": 1795269651175,
  "started": 1793939456925
 }
