@@ -4,18 +4,18 @@
  "symbols": {
   "BTCUSDT": {
    "position": null,
-   "last_time": 1795503600000,
-   "last_close": 60411.94
+   "last_time": 1795504500000,
+   "last_close": 60394.99
   },
   "ETHUSDT": {
    "position": null,
-   "last_time": 1795503600000,
-   "last_close": 1698.39
+   "last_time": 1795504500000,
+   "last_close": 1695.72
   },
   "SOLUSDT": {
    "position": null,
-   "last_time": 1795503600000,
-   "last_close": 71.73
+   "last_time": 1795504500000,
+   "last_close": 71.66
   },
   "XRPUSDT": {
    "position": {
@@ -26,8 +26,8 @@
     "qty": 54.28948129892679,
     "risk": 1.3408724018359743
    },
-   "last_time": 1795503600000,
-   "last_close": 0.9454
+   "last_time": 1795504500000,
+   "last_close": 0.944
   },
   "DOGEUSDT": {
    "position": {
@@ -38,8 +38,8 @@
     "qty": 903.0459709582989,
     "risk": 1.3200406792806456
    },
-   "last_time": 1795503600000,
-   "last_close": 0.05639
+   "last_time": 1795504500000,
+   "last_close": 0.0563
   },
   "ADAUSDT": {
    "position": {
@@ -50,13 +50,13 @@
     "qty": 318.78572937287686,
     "risk": 1.3633912315588979
    },
-   "last_time": 1795503600000,
-   "last_close": 0.1485
+   "last_time": 1795504500000,
+   "last_close": 0.1482
   },
   "LTCUSDT": {
    "position": null,
-   "last_time": 1795503600000,
-   "last_close": 41.76
+   "last_time": 1795504500000,
+   "last_close": 41.64
   },
   "LINKUSDT": {
    "position": {
@@ -67,13 +67,13 @@
     "qty": 5.60845898747728,
     "risk": 1.2962935278522947
    },
-   "last_time": 1795503600000,
-   "last_close": 9.091
+   "last_time": 1795504500000,
+   "last_close": 9.068
   },
   "AVAXUSDT": {
    "position": null,
-   "last_time": 1795503600000,
-   "last_close": 6.747
+   "last_time": 1795504500000,
+   "last_close": 6.738
   },
   "NEARUSDT": {
    "position": {
@@ -84,15 +84,15 @@
     "qty": 12.867934273393967,
     "risk": 1.3408724018359743
    },
-   "last_time": 1795503600000,
-   "last_close": 3.037
+   "last_time": 1795504500000,
+   "last_close": 3.02
   }
  },
  "day": "2026-11-24",
  "day_start_equity": 65.66370676272953,
  "halted": false,
  "halt_count": 6,
- "last_run": 1795504527934,
+ "last_run": 1795505436877,
  "started": 1793832342607,
  "skip_count": 13
 }
