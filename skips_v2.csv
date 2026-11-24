@@ -12,3 +12,4 @@ time,symbol,side,reason
 2026-11-16 14:30Z,XRPUSDT,long,total risk cap (12%) reached
 2026-11-17 23:00Z,XRPUSDT,long,total risk cap (12%) reached
 2026-11-24 05:00Z,LTCUSDT,long,total risk cap (12%) reached
+2026-11-24 09:00Z,NEARUSDT,short,daily loss limit already hit today
