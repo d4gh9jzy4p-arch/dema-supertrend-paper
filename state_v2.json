@@ -11,23 +11,23 @@
     "qty": 0.000538075319276061,
     "risk": 1.195784282756837
    },
-   "last_time": 1795674600000,
-   "last_close": 60520.92
+   "last_time": 1795675500000,
+   "last_close": 60556.88
   },
   "ETHUSDT": {
    "position": null,
-   "last_time": 1795674600000,
-   "last_close": 1686.12
+   "last_time": 1795675500000,
+   "last_close": 1687.34
   },
   "SOLUSDT": {
    "position": null,
-   "last_time": 1795674600000,
-   "last_close": 70.73
+   "last_time": 1795675500000,
+   "last_close": 70.68
   },
   "XRPUSDT": {
    "position": null,
-   "last_time": 1795674600000,
-   "last_close": 0.9515
+   "last_time": 1795675500000,
+   "last_close": 0.9501
   },
   "DOGEUSDT": {
    "position": {
@@ -38,12 +38,12 @@
     "qty": 531.4345508569139,
     "risk": 1.195784282756837
    },
-   "last_time": 1795674600000,
-   "last_close": 0.05645
+   "last_time": 1795675500000,
+   "last_close": 0.05632
   },
   "ADAUSDT": {
    "position": null,
-   "last_time": 1795674600000,
+   "last_time": 1795675500000,
    "last_close": 0.148
   },
   "LTCUSDT": {
@@ -55,8 +55,8 @@
     "qty": 0.7460591422488546,
     "risk": 1.195784282756837
    },
-   "last_time": 1795674600000,
-   "last_close": 43.55
+   "last_time": 1795675500000,
+   "last_close": 43.42
   },
   "LINKUSDT": {
    "position": {
@@ -67,25 +67,25 @@
     "qty": 3.467243843394444,
     "risk": 1.195784282756837
    },
-   "last_time": 1795674600000,
-   "last_close": 9.177
+   "last_time": 1795675500000,
+   "last_close": 9.158
   },
   "AVAXUSDT": {
    "position": null,
-   "last_time": 1795674600000,
-   "last_close": 6.656
+   "last_time": 1795675500000,
+   "last_close": 6.639
   },
   "NEARUSDT": {
    "position": null,
-   "last_time": 1795674600000,
-   "last_close": 3.063
+   "last_time": 1795675500000,
+   "last_close": 3.049
   }
  },
  "day": "2026-11-26",
  "day_start_equity": 65.94635323738316,
  "halted": false,
  "halt_count": 7,
- "last_run": 1795675532885,
+ "last_run": 1795676444068,
  "started": 1793832342607,
  "skip_count": 19
 }
