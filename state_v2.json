@@ -11,13 +11,13 @@
     "qty": 0.000783245463771936,
     "risk": 1.2381721281775688
    },
-   "last_time": 1795799700000,
-   "last_close": 59679.79
+   "last_time": 1795800600000,
+   "last_close": 59596.1
   },
   "ETHUSDT": {
    "position": null,
-   "last_time": 1795799700000,
-   "last_close": 1666.36
+   "last_time": 1795800600000,
+   "last_close": 1660.86
   },
   "SOLUSDT": {
    "position": {
@@ -28,13 +28,13 @@
     "qty": 0.6578975888717695,
     "risk": 1.2381721281775688
    },
-   "last_time": 1795799700000,
-   "last_close": 71.83
+   "last_time": 1795800600000,
+   "last_close": 71.46
   },
   "XRPUSDT": {
    "position": null,
-   "last_time": 1795799700000,
-   "last_close": 0.9482
+   "last_time": 1795800600000,
+   "last_close": 0.9429
   },
   "DOGEUSDT": {
    "position": {
@@ -45,8 +45,8 @@
     "qty": 769.7963143011068,
     "risk": 1.2381721281775688
    },
-   "last_time": 1795799700000,
-   "last_close": 0.05764
+   "last_time": 1795800600000,
+   "last_close": 0.05737
   },
   "ADAUSDT": {
    "position": {
@@ -57,18 +57,18 @@
     "qty": 289.21837080976286,
     "risk": 1.2381721281775688
    },
-   "last_time": 1795799700000,
-   "last_close": 0.1487
+   "last_time": 1795800600000,
+   "last_close": 0.1482
   },
   "LTCUSDT": {
    "position": null,
-   "last_time": 1795799700000,
-   "last_close": 43.65
+   "last_time": 1795800600000,
+   "last_close": 43.47
   },
   "LINKUSDT": {
    "position": null,
-   "last_time": 1795799700000,
-   "last_close": 9.317
+   "last_time": 1795800600000,
+   "last_close": 9.304
   },
   "AVAXUSDT": {
    "position": {
@@ -79,20 +79,20 @@
     "qty": 7.404847907848428,
     "risk": 1.2381721281775688
    },
-   "last_time": 1795799700000,
-   "last_close": 6.616
+   "last_time": 1795800600000,
+   "last_close": 6.595
   },
   "NEARUSDT": {
    "position": null,
-   "last_time": 1795799700000,
-   "last_close": 3.019
+   "last_time": 1795800600000,
+   "last_close": 3.0
   }
  },
  "day": "2026-11-27",
  "day_start_equity": 61.90860640887844,
  "halted": false,
  "halt_count": 8,
- "last_run": 1795800644070,
+ "last_run": 1795801529307,
  "started": 1793832342607,
  "skip_count": 22
 }
