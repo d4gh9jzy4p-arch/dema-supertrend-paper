@@ -12,3 +12,5 @@ time,symbol,side,reason
 2026-11-26 23:00Z,BTCUSDT,short,daily loss limit already hit today
 2026-11-26 23:00Z,DOGEUSDT,short,daily loss limit already hit today
 2026-11-27 00:45Z,DOGEUSDT,short,daily loss limit already hit today
+2026-11-27 02:00Z,BTCUSDT,long,daily loss limit already hit today
+2026-11-27 02:00Z,DOGEUSDT,long,daily loss limit already hit today

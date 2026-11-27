@@ -20,3 +20,4 @@ time,symbol,side,reason
 2026-11-25 17:30Z,NEARUSDT,long,total risk cap (12%) reached
 2026-11-26 16:00Z,NEARUSDT,long,daily loss limit already hit today
 2026-11-26 23:00Z,NEARUSDT,short,daily loss limit already hit today
+2026-11-27 02:00Z,NEARUSDT,long,daily loss limit already hit today
